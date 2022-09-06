@@ -21,28 +21,37 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Label Content="0" Grid.Column="0" Grid.ColumnSpan="4" FontWeight="DemiBold" FontSize="50px"
+        <Label Name="resultLabel"
+                Content="0" Grid.Column="0" Grid.ColumnSpan="4" FontWeight="DemiBold" FontSize="50px"
                VerticalAlignment="Bottom"
                HorizontalAlignment="Right"/>
-        <Button Grid.Row="1"
+        <Button x:Name="percentageButton"
+                Click="percentageButton_Click"
+                Grid.Row="1"
                 Grid.Column="0"
                 Content="%"
                 FontSize="20px"
                 FontWeight="Bold"
                 Margin="3"/>
-        <Button Grid.Row="1"
+        <Button x:Name="clearButton"
+                Click="clearButton_Click"
+                Grid.Row="1"
                 Grid.Column="1"
                 Content="CE"
                 FontSize="20px"
                 FontWeight="Bold"
                 Margin="3"/>
-        <Button Grid.Row="1"
+        <Button x:Name="minusButton"
+                Click="minusButton_Click"
+                Grid.Row="1"
                 Grid.Column="2"
                 Content="-"
                 FontSize="30px"
                 FontWeight="Bold"
                 Margin="3"/>
-        <Button Grid.Row="1"
+        <Button x:Name="divisionButton"
+                Click="divisionButton_Click"
+                Grid.Row="1"
                 Grid.Column="3"
                 Content="/"
                 FontSize="20px"
@@ -50,51 +59,67 @@
                 Margin="3"/>
 
 
-        <Button Grid.Row="2"
+        <Button x:Name="nineButton"
+                Click="nineButton_Click"
+                Grid.Row="2"
                 Grid.Column="0"
                 Content="9"
                 FontSize="20px"
                 FontWeight="Bold"
                 Margin="3"/>
-        <Button Grid.Row="2"
+        <Button x:Name="eightButton"
+                Click="eightButton_Click"
+                Grid.Row="2"
                 Grid.Column="1"
                 Content="8"
                 FontSize="20px"
                 FontWeight="Bold"
                 Margin="3"/>
-        <Button Grid.Row="2"
+        <Button x:Name="sevenButton"
+                Click="sevenButton_Click"
+                Grid.Row="2"
                 Grid.Column="2"
                 Content="7"
                 FontSize="20px"
                 FontWeight="Bold"
                 Margin="3"/>
-        <Button Grid.Row="2"
+        <Button x:Name="multiplyButton"
+                Click="multiplyButton_Click"
+                Grid.Row="2"
                 Grid.Column="3"
                 Content="X"
                 FontSize="20px"
                 FontWeight="Bold"
                 Margin="3"/>
 
-        
-        <Button Grid.Row="3"
+
+        <Button x:Name="sixButton" 
+                Click="sixButton_Click"
+                Grid.Row="3"
                 Grid.Column="0"
                 Content="6"
                 FontSize="20px"
                 FontWeight="Bold"
                 Margin="3"/>
-        <Button Grid.Row="3"
+        <Button x:Name="fiveButton" 
+                Click="fiveButton_Click"
+                Grid.Row="3"
                 Grid.Column="1"
                 Content="5"
                 FontSize="20px"
                 FontWeight="Bold"
                 Margin="3"/>
-        <Button Grid.Row="3"
+        <Button x:Name="fourButton" 
+                Click="fourButton_Click"
+                Grid.Row="3"
                 Grid.Column="2"
                 Content="4"
                 FontSize="20px"
                 FontWeight="Bold"
                 Margin="3"/>
-        <Button Grid.Row="3"
+        <Button x:Name="plusButton" 
+                Click="plusButton_Click"
+                Grid.Row="3"
                 Grid.Column="3"
                 Content="+"
                 FontSize="30px"
@@ -104,40 +129,52 @@
 
 
         <Button Grid.Row="4"
+                x:Name="threeButton"
+                Click="threeButton_Click"
                 Grid.Column="0"
                 Content="3"
                 FontSize="20px"
                 FontWeight="Bold"
                 Margin="3"/>
         <Button Grid.Row="4"
+                x:Name="twoButton"
+                Click="twoButton_Click"
                 Grid.Column="1"
                 Content="2"
                 FontSize="20px"
                 FontWeight="Bold"
                 Margin="3"/>
         <Button Grid.Row="4"
+                x:Name="oneButton"
+                Click="oneButton_Click"
                 Grid.Column="2"
                 Content="1"
                 FontSize="20px"
                 FontWeight="Bold"
                 Margin="3"/>
-        
 
 
 
-        <Button Grid.Row="5"
+
+        <Button x:Name="periodButton" 
+                Click="periodButton_Click"
+                Grid.Row="5"
                 Grid.Column="0"
                 Content="."
                 FontSize="20px"
                 FontWeight="Bold"
                 Margin="3"/>
-        <Button Grid.Row="5"
+        <Button x:Name="zeroButton"
+                Click="zeroButton_Click"
+                Grid.Row="5"
                 Grid.Column="1"
                 Content="0"
                 FontSize="20px"
                 FontWeight="Bold"
                 Margin="3"/>
-        <Button Grid.Row="5"
+        <Button x:Name="equalsButton" 
+                Click="equalsButton_Click"
+                Grid.Row="5"
                 Grid.Column="2"
                 Content="="
                 FontSize="30px"
