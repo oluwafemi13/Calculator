@@ -1,0 +1,19 @@
+﻿<Application x:Class="Calculator.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Calculator"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="operatorColor" Color="Blue"/>
+        <SolidColorBrush x:Key="numbersColor" Color="#444444"/>
+        <SolidColorBrush x:Key="foregroundColor" Color="#fff"/>
+        <SolidColorBrush x:Key="windowBackground" Color="Black"/>
+
+        <!--implicit styling-->
+        <Style TargetType="Button">
+            <Setter  Property="Foreground" Value="white"/>
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+    </Application.Resources>
+    
+</Application>
