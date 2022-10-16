@@ -24,5 +24,96 @@ namespace Calculator
         {
             InitializeComponent();
         }
+
+        private void percentageButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void clearButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void minusButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void divisionButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void nineButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void eightButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void sevenButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void multiplyButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void sixButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void fiveButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void fourButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void plusButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+       
+
+        private void threeButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void twoButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void oneButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void periodButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void zeroButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void equalsButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
